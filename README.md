@@ -1,2 +1,2 @@
 # Forged-Signature-Detection-
-This project aims at performing signature verification and forgery detection, which is the process of verifying signatures automatically to determine whether a signature is genuine or not. 
+This project aims at performing signature verification and forgery detection, which is the process of verifying signatures automatically to determine whether a signature is genuine or not. It performs signature verification by using convolutional neural networks (CNNs). The model is based on AlexNet architecture. The signature images are pre-processed in a batch by batch manner and are split into training and testing data. The images have been re-sized and randomly cropped to 227 x 227 which is the default input size for AlexNet. 
